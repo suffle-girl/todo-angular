@@ -9,5 +9,9 @@
     }
   </ul>
 
+  @if (selectedUser) {
   <p>Tasks</p>
+  } @else {
+  <p id="fallback">Select user to see their tasks!</p>
+  }
 </main>
