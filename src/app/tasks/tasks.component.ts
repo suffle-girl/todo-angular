@@ -10,5 +10,11 @@ import { TaskComponent } from './task/task.component';
 })
 export class TasksComponent {
   @Input({ required: true }) name!: string;
+  @Input({ required: true }) userId!: string;
+
   tasks = DUMMY_TASKS;
+
+  get selectedUserTasks() {
+    return this.tasks.filter((task) => task.userId === this.userId);
+  }
 }

@@ -1,0 +1,36 @@
+article {
+  padding: 1rem;
+  background-color: var(--blue-button);
+}
+
+h2 {
+  margin: 0;
+}
+
+time {
+  color: var(--green-tones);
+}
+
+.actions {
+  text-align: right;
+  margin: 0;
+}
+
+.actions button {
+  font: inherit;
+  font-size: 0.9rem;
+  cursor: pointer;
+  background-color: var(--blue-tones);
+  color: #decdf2;
+  border-radius: 4px;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: var(--green-tones);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+}
