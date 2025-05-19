@@ -1,5 +1,6 @@
 :root {
   --blue-tones: rgba(1, 44, 64, 1);
+  --blue-button: rgb(13 77 107);
   --green-tones: rgba(25, 107, 59, 1);
   --text-color: rgb(202 225 211);
 }

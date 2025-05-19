@@ -22,7 +22,7 @@ button {
 button:hover,
 button:active,
 .active {
-  background-color: rgb(13 77 107);
+  background-color: var(--blue-button);
   color: #150722;
 }
 
