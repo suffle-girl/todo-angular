@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --blue-tones: rgba(1, 44, 64, 1);
+  --green-tones: rgba(25, 107, 59, 1);
+  --text-color: rgb(202 225 211);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background: #012c40;
+  background: radial-gradient(
+    circle at top left,
+    var(--blue-tones) 0%,
+    var(--green-tones) 100%
+  );
+  color: var(--text-color);
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
